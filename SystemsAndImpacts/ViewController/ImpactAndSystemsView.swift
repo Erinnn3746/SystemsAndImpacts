@@ -18,7 +18,12 @@ struct ImpactAndSystemsView: View
             {
                 Section(header: Text("Impacts"))
                 {
-                    Text("Coming Soon!")
+                    ForEach(impacts.indices)
+                    {
+                        index in
+                        
+                        NavigationLink(impacts[index].title, destination: ImpactDetailView(impact: impacts[index]))
+                    }
                 }
                 Section(header: Text("Systems"))
                 {
