@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		944B28EA28DA0087003C52DD /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B28E928DA0087003C52DD /* ComputingImpact.swift */; };
+		944B28EC28DA01FD003C52DD /* ImpactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B28EB28DA01FD003C52DD /* ImpactData.swift */; };
 		94B6138B28D4BC790028FF67 /* SystemsAndImpactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6138A28D4BC790028FF67 /* SystemsAndImpactsApp.swift */; };
 		94B6138D28D4BC790028FF67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6138C28D4BC790028FF67 /* ContentView.swift */; };
 		94B6138F28D4BC7A0028FF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B6138E28D4BC7A0028FF67 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		944B28E928DA0087003C52DD /* ComputingImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputingImpact.swift; sourceTree = "<group>"; };
+		944B28EB28DA01FD003C52DD /* ImpactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactData.swift; sourceTree = "<group>"; };
 		94B6138728D4BC790028FF67 /* SystemsAndImpacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemsAndImpacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B6138A28D4BC790028FF67 /* SystemsAndImpactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemsAndImpactsApp.swift; sourceTree = "<group>"; };
 		94B6138C28D4BC790028FF67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				944B28E928DA0087003C52DD /* ComputingImpact.swift */,
+				944B28EB28DA01FD003C52DD /* ImpactData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				944B28EA28DA0087003C52DD /* ComputingImpact.swift in Sources */,
 				94B6138D28D4BC790028FF67 /* ContentView.swift in Sources */,
 				94B6138B28D4BC790028FF67 /* SystemsAndImpactsApp.swift in Sources */,
+				944B28EC28DA01FD003C52DD /* ImpactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
