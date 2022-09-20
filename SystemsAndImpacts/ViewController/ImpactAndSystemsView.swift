@@ -7,15 +7,32 @@
 
 import SwiftUI
 
-struct ImpactAndSystemsView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+struct ImpactAndSystemsView: View
+{
+    let impacts = loadImpactdata()
+    var body: some View
+    {
+        NavigationView
+        {
+            List
+            {
+                Section(header: Text("Impacts"))
+                {
+                    Text("Coming Soon!")
+                }
+                Section(header: Text("Systems"))
+                {
+                    Text("Also Coming Soon!")
+                }
+            }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+struct ImpactAndSystempsView_Previews: PreviewProvider
+{
+    static var previews: some View
+    {
         ImpactAndSystemsView()
     }
 }
