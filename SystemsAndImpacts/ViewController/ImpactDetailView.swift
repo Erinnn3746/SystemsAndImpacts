@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ImpactDetailView: View
 {
     @State var impact : ComputingImpact
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(impact.title)
+            Map(coordinateRegion: $impact.location)
+                .frame(height: 400)
+            Text(impact.details)
+        }
     }
 }
 
