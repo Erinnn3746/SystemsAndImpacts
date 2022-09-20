@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944B28EA28DA0087003C52DD /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B28E928DA0087003C52DD /* ComputingImpact.swift */; };
 		94B6138B28D4BC790028FF67 /* SystemsAndImpactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6138A28D4BC790028FF67 /* SystemsAndImpactsApp.swift */; };
 		94B6138D28D4BC790028FF67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6138C28D4BC790028FF67 /* ContentView.swift */; };
 		94B6138F28D4BC7A0028FF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B6138E28D4BC7A0028FF67 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		944B28E928DA0087003C52DD /* ComputingImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputingImpact.swift; sourceTree = "<group>"; };
 		94B6138728D4BC790028FF67 /* SystemsAndImpacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemsAndImpacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B6138A28D4BC790028FF67 /* SystemsAndImpactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemsAndImpactsApp.swift; sourceTree = "<group>"; };
 		94B6138C28D4BC790028FF67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		944B28E828DA002A003C52DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				944B28E928DA0087003C52DD /* ComputingImpact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		94B6137E28D4BC790028FF67 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		94B6138928D4BC790028FF67 /* SystemsAndImpacts */ = {
 			isa = PBXGroup;
 			children = (
+				944B28E828DA002A003C52DD /* Model */,
 				94B613B428D4BC950028FF67 /* Recources */,
 				94B6138C28D4BC790028FF67 /* ContentView.swift */,
 				94B6139028D4BC7A0028FF67 /* Preview Content */,
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944B28EA28DA0087003C52DD /* ComputingImpact.swift in Sources */,
 				94B6138D28D4BC790028FF67 /* ContentView.swift in Sources */,
 				94B6138B28D4BC790028FF67 /* SystemsAndImpactsApp.swift in Sources */,
 			);
