@@ -18,7 +18,7 @@ struct ImpactAndSystemsView: View
             {
                 Section(header: Text("Impacts"))
                 {
-                    ForEach(impacts.indices)
+                    ForEach(impacts.indices, id: \.self)
                     {
                         index in
                         
