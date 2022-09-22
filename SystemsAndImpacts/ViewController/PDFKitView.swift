@@ -12,7 +12,8 @@ struct PDFKitView: View
 {
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        PDFKitRepresentedView(url: definitionsBrochure)
+            .frame(width: 350, height: 700)
     }
 }
 
@@ -33,8 +34,15 @@ struct PDFKitRepresentedView : UIViewRepresentable
         pdfView.document = PDFDocument(url: self.url)
         pdfView.autoScales = true
         pdfView.displayDirection = .horizontal
+        pdfView.minScaleFactor = 1.0
+        pdfView.maxScaleFactor = 5.0
         
         return pdfView
+    }
+    
+    func updateUIView(_ uiView : UIViewType, context : Context) -> Void
+    {
+        // Do not put any code in here
     }
 }
 

@@ -7,7 +7,7 @@
 
 import MapKit
 
-let definitions = Bundle.main.url(forResource: "Placeholder", withExtension: "pdf")!
+let definitionsBrochure = Bundle.main.url(forResource: "Computing Definition", withExtension: "pdf")!
 
 func loadImpactdata() -> [ComputingImpact]
 {
