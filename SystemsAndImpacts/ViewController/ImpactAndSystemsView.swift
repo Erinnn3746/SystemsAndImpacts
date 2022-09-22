@@ -16,19 +16,20 @@ struct ImpactAndSystemsView: View
         {
             List
             {
-                Section(header: Text("Impacts"))
+                Section(header: Text("Impacts of computing!"))
                 {
-                    ForEach(impacts.indices, id: \.self)
+                    ForEach(impacts)
                     {
-                        index in
+                        impact in
                         
-                        NavigationLink(impacts[index].title, destination: ImpactDetailView(impact: impacts[index]))
+                        NavigationLink(impact.title, destination: ImpactDetailView(with: impact))
+                            .accessibilityLabel("Link to ImpactDetailView for \(impact.title)")
                     }
                 }
                 Section(header: Text("Systems"))
                 {
-                    Text("Also Coming Soon!")
-                }
+                    NavigationLink("Computing Systems Brochure", destination: PDFKitView())
+                } 
             }
         }
     }
